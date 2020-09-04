@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-if [ -z "$STY" ]; then exec screen -dm -S build sudo "$0"; fi
-
 REV=$1
 TOOLDIR="./build"
 
